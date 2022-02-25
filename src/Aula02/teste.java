@@ -3,7 +3,7 @@ package Aula02;
 import java.util.Scanner;
 
 
-public class Solution {
+/*public class Solution {
 
     public static void ehPar(int num) {
         boolean par = false;
@@ -19,3 +19,4 @@ public class Solution {
         ehPar (numero);
     }
 }
+*/
