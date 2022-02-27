@@ -1,4 +1,4 @@
-package Aula10associado;
+package aula9;
 
 public class AssociadoHabilitado extends Associado{
     private double custoPiscina;
