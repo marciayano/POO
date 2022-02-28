@@ -12,29 +12,30 @@ não há cobrança de custo adicional.
 
 
 public class Associado {
+    //atributos
     private String numAssociado;
     private String nome;
     private double valorMensal;
     private String atividade;
 
-
+    //construtor
     public Associado(String numAssociado, String nome, double valorMensal, String atividade){
         this.numAssociado = numAssociado;
         this.nome = nome;
         this.valorMensal = valorMensal;
         this.atividade = atividade;
     }
-
+    //metodo
     public double custoMensal(){
         return this.valorMensal;
     }
 
-    @Override
+    @Override //estamos sobreescrevendo o metodo toString, quando digita toStr.. o Java ja da opcao de sobreescrever e ja digita tudo para voce.
     public String toString() {
         return "Associado - " +
-                "numAssociado='" + numAssociado + '\'' +
-                ", nome='" + nome + '\'' +
-                ", valorMensal=" + valorMensal +
-                ", atividade='" + atividade + '\'';
+                "numero ='" + numAssociado + '\'' +
+                ", nome ='" + nome + '\'' +
+                ", mensalidade = " + valorMensal +
+                ", atividade = '" + atividade + '\'';
     }
 }
