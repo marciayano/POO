@@ -1,7 +1,8 @@
-package Aula11ClasseAbstrata;
+package aula11Mesa;
 
 public class Preguica extends Animal {
     public Preguica(String nome, int idade) {
+
         super(nome, idade);
     }
 

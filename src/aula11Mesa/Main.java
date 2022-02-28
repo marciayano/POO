@@ -1,4 +1,4 @@
-package Aula11ClasseAbstrata;
+package aula11Mesa;
 
 public class Main {
     public static void main(String[]args){
@@ -12,6 +12,6 @@ public class Main {
 
         Preguica zizi = new Preguica("zizi", 5);
         zizi.subirArvore();
-        tod.emitirSom();
+        zizi.emitirSom();
     }
 }

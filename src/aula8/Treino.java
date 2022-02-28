@@ -19,6 +19,7 @@ import java.lang.management.GarbageCollectorMXBean;
 
     sobreescrita = reescrever
     neste caso vamos reescrever o metodo criado pela super classe para se adequar a sub classe
+    A anotação "@Override" pede ao compilador para verificar se estamos realmente redefinindo um método da superclasse.
 
     protected "#" = usado na relacao heranca = visibilidade intermediária do atributo ou método, boa pratica
     o que declaramos com # é particular para outras classes, mas público para classes filhas.

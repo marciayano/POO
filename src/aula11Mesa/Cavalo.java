@@ -1,7 +1,8 @@
-package Aula11ClasseAbstrata;
+package aula11Mesa;
 
 public class Cavalo extends Animal {
     public Cavalo(String nome, int idade) {
+
         super(nome, idade);
     }
 
